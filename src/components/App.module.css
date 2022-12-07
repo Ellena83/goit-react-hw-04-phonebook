@@ -1,0 +1,66 @@
+@import-normalize;
+
+body {
+    background-color: #f0f1f3;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+        helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 320px;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* @media screen and (min-width: 1200px) {
+        width: 1200px;
+    } */
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+.title {
+    margin-bottom: 15px;
+    color: #000;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+}
+
+.titleSpan {
+    color: #2196f3;
+}
