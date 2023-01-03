@@ -1,6 +1,6 @@
 # Phone book contact storage app
 
-- The goit-react-hw-02-phonebook repository has been created.
+- The goit-react-hw-03-phonebook repository has been created.
 - There is a separate file for each component in the src/components folder.
 - For components, propTypes are described.
 - Everything that the component expects in the form of props is passed to it when it is called.
