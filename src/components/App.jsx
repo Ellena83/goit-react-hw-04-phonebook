@@ -8,7 +8,7 @@ import css from "./App.module.css";
 import { nanoid } from "nanoid";
 
 export const App = () => {
-  const [contacts, setContacts] = useState([]);
+  const [contacts, setContacts] = useState(() => { return (JSON.parse(window.localStorage.getItem('contacts')) ?? []) });
   const [filter, setFilter] = useState('');
 
 
